@@ -1,0 +1,304 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+.wrap {
+  max-width: 1312px;
+  margin: auto;
+}
+.lato14 {
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 14px;
+}
+.lato-40 {
+  font-family: "Lato";
+  font-weight: 900;
+  font-size: 40px;
+}
+.lato24 {
+  font-family: "Lato";
+  font-weight: 900;
+  font-style: Black;
+  font-size: 24px;
+  line-height: 100%;
+}
+.text-light {
+  color: white;
+}
+.textBlack {
+  color: black;
+}
+.text-center {
+  text-align: center;
+}
+.m-auto {
+  margin-right: auto;
+  margin-left: auto;
+}
+.mt-auto {
+  margin-top: auto;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.mt-24 {
+  margin-top: 24px;
+}
+.mt-90 {
+  margin-top: 90px;
+}
+.mt-40 {
+  margin-top: 40px;
+}
+.mt-80 {
+  margin-top: 80px;
+}
+.mt-117 {
+  margin-top: 117px;
+}
+.gap-20 {
+  gap: 20px;
+}
+.flex {
+  display: flex;
+}
+.align-center {
+  align-items: center;
+}
+.space-between {
+  justify-content: space-between;
+}
+.space-end{
+  justify-content: end;
+}
+.hr-80 {
+  width: 80px;
+  border: 1px solid #000000;
+  height: 0px;
+}
+.hr-374 {
+  width: 374px;
+  border: 1px solid #000000;
+  height: 0px;
+}
+.btn {
+  width: 150px;
+  height: 40px;
+  background-color: black;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  font-family: "Lato";
+  font-weight: 900;
+  font-size: 15px;
+}
+.firstScreen {
+  height: 780px;
+  background-image: url("./img/2022-toyota-landcruiser-300-series\ 1\ \(1\).jpg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+header {
+  display: flex;
+  height: 90px;
+  align-items: center;
+  border-bottom: 1px solid #000000;
+}
+.logo {
+  background-image: url("./img/logo.jpg");
+  height: 40px;
+  width: 212px;
+  margin-right: 300px;
+}
+.menuList {
+  display: flex;
+  width: 356px;
+  justify-content: space-between;
+}
+.menuList a:hover {
+  font-size: 17px;
+  font-weight: 900;
+  text-decoration: underline;
+  transition: all 0.7s;
+}
+.menuList li {
+  width: 90px;
+  text-align: center;
+  height: 20px;
+  line-height: 20px;
+}
+
+.menuList a {
+  transition: all 0.7s;
+}
+main {
+  width: 524px;
+  margin-top: 50px;
+}
+.titleContainer {
+  display: flex;
+  justify-content: space-between;
+}
+h1 {
+  font-family: "Lato";
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 100%;
+  letter-spacing: 10%;
+}
+.model300 {
+  -webkit-text-stroke: 1px black;
+  color: transparent;
+  font-family: "Lato";
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 100%;
+  letter-spacing: 10%;
+}
+.configuration {
+  height: 780px;
+  background-color: #000000;
+  padding: 122px;
+}
+.config-box {
+  width: 386px;
+}
+.config-box-img {
+  background-image: url("./img/Component-59.png");
+  width: 40px;
+  height: 40px;
+}
+.config-content {
+  width: 322px;
+}
+.config-img {
+  width: 400px;
+  height: 360px;
+  background-image: url("./img/LandCruiserLAYER2.png");
+  background-position: center;
+}
+.narrativePage {
+  height: 780px;
+  background-image: url("./img/01_Hero_Desktop_v4\ 1.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  padding: 130px;
+}
+.narrativeBox {
+  width: 500px;
+  height: 270px;
+  border-radius: 8px;
+  padding: 21.5px 32px 0;
+  background: linear-gradient(180deg, #f5f5f5 0%, #f6f6f6 0.01%, #ffffff 100%);
+  border: 1px solid;
+  border-image-source: linear-gradient(180deg, #ffffff 0%, #eeeeee 100%);
+  box-shadow: 0px 10px 15px 0px #00000026;
+}
+.narrativeBox-img {
+  background-image: url("./img/Group\ 1.png");
+  width: 58px;
+  height: 60px;
+}
+.narrativeBox-img2 {
+  background-image: url("./img/Group\ 2.png");
+  width: 80px;
+  height: 70px;
+  background-repeat: no-repeat;
+}
+.narrative-container {
+  justify-content: center;
+  gap: 35px;
+}
+.interior {
+  background-color: #000000;
+  padding: 90px 0 145px 0;
+}
+.interiorImg {
+  background-image: url("./img/03_Tech_Interiors_Sahara_Desktop_v2\ 1\ \(1\).png");
+  width: 1440px;
+  height: 260px;
+  background-repeat: no-repeat;
+}
+.interiorText {
+  color: white;
+  font-family: "Lato";
+  font-weight: 300;
+  font-size: 32px;
+  letter-spacing: 10%;
+  width: fit-content;
+}
+.interiorContent {
+  width: 322px;
+}
+.interiorSettingImg {
+  background-image: url("./img/Vector.png");
+  width: 185px;
+  height: 190px;
+  background-repeat: no-repeat;
+}
+.interiorSettingImg1 {
+  background-image: url("./img/Vector\(1\).png");
+  background-repeat: no-repeat;
+  width: 211px;
+  height: 185px;
+}
+.interiorSettingImg2 {
+  background-image: url("./img/Group\ 5.png");
+  background-repeat: no-repeat;
+  width: 182px;
+  height: 125px;
+}
+.interiorLuxurious {
+  width: 620px;
+}
+.interiorDisplay {
+  width: 604px;
+}
+footer {
+  height: 345px;
+  background-color: #000000;
+  border-top: 1px solid #ffffff;
+}
+
+.font-400 {
+  font-weight: 400;
+}
+.footer-contact ul li {
+  margin-bottom: 8px;
+  gap: 40px;
+}
+.footer-contact2 {
+  padding-top: 57px;
+  margin-left: 80px;
+}
+.footer-contact2 li {
+  margin-bottom: 8px;
+}
+.footer-logo {
+  background-image: url("./img/footer-logo.png");
+  width: 212px;
+  height: 40px;
+  margin-top: 71px;
+}
+.instagram-logo {
+  background-image: url("./img/instagram-logo.png");
+  width: 32px;
+  height: 32px;
+}
+.facebook-logo {
+  background-image: url("./img/facebook-logo.png");
+  width: 32px;
+  height: 32px;
+}
+
