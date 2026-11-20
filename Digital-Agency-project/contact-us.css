@@ -1,0 +1,32 @@
+.contact-us {
+  margin-top: 130px;
+  background-color: #1E1E2080;
+  padding-top: 80px;
+}
+.contact-us-text {
+  min-width: 327px;
+  max-width: 826px;
+}
+.contact-btn {
+  background-color: #5454d4;
+  width: 166px;
+  height: 44px;
+  border-radius: 3px;
+}
+.contact-us-group {
+  bottom: -80px;
+}
+.contact-us-add {
+  top: -50px;
+  right: 0;
+}
+
+@media (min-width: 500px) {
+  .contact-btn {
+  width: 201px;
+  height: 60px;
+}
+.contact-us {
+  padding-top: 186px;
+}
+}

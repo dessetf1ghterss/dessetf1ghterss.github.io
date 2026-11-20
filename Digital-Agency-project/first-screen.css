@@ -1,0 +1,131 @@
+header {
+  padding-top: 40px;
+}
+.logo {
+  background-image: url(./img/logo.png);
+  width: 115px;
+  height: 34px;
+  background-size: cover;
+}
+.btn {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: -0.5px;
+  width: 157px;
+  height: 44px;
+  border: 2px white solid;
+  background-color: transparent;
+  border-radius: 3px;
+}
+.desktop-menu {
+  display: none;
+}
+.desktop-list {
+  gap: 40px;
+}
+.mobile-list {
+  position: absolute;
+  left: -1000px;
+  top: 100px;
+  width: calc(100vw - 48px);
+  padding-bottom: 100px;
+  border-radius: 20px;
+  padding-top: 30px;
+  background-color: rgba(0, 0, 0, 50%);
+  backdrop-filter: blur(10px);
+  transition: all 1s;
+}
+.hide {
+  display: none;
+}
+.show-mobile {
+  left: 24px;
+}
+main {
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 66px;
+}
+.main-content {
+  max-width: 536px;
+  min-width: 327px;
+}
+h1 {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 150%;
+  margin-bottom: 30px;
+}
+.main-img {
+  background-image: url("./img/main-img.png");
+  width: 381px;
+  height: 414px;
+  background-size: cover;
+  position: relative;
+}
+.mobile-list li {
+  margin-bottom: 30px;
+}
+.main-cloud {
+  width: 252px;
+  height: 666px;
+  top: -32px;
+  left: -76px;
+  border-radius: 233.5px;
+  transform: rotate(-41deg);
+}
+.main-vector {
+  top: 30px;
+}
+.main-group {
+  right: 0;
+}
+.main-group2 {
+  left: 20px;
+  bottom: -60px;
+}
+.main-add {
+  right: 0;
+  bottom: -60px;
+}
+.arrow-right {
+  background-image: url("./img/arrow.png");
+  width: 12px;
+  height: 12px;
+}
+@media (min-width: 780px) {
+  .logo {
+    width: 132px;
+    height: 40px;
+  }
+  .desktop-menu {
+    display: block;
+  }
+  .mobile-menu {
+    display: none;
+  }
+  h1 {
+    font-size: 80px;
+    line-height: 84px;
+  }
+  .main-img {
+    width: 655px;
+    height: 713px;
+  }
+  main {
+    justify-content: space-between;
+  }
+  h1 {
+    margin-bottom: 24px;
+  }
+  .main-cloud {
+    width: 466px;
+    height: 1233px;
+    top: -200px;
+    left: -200px;
+    border-radius: 233.5px;
+    transform: rotate(-54deg);
+  }
+}

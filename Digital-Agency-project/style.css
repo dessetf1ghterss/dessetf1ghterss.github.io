@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+@import url("./first-screen.css");
+@import url("./choice.css");
+@import url("./service.css");
+@import url("./portifolio.css");
+@import url("./contact-us.css");
+@import url("./footer.css");
+
+:root {
+  --main-font: "Nunito Sans";
+  --light-text: #fff;
+  --light-text-70: #ffffffb2;
+}
+body {
+  background-color: #19191b;
+}
+.wrap {
+  max-width: 1200px;
+  margin: auto;
+  padding-left: 24px;
+  padding-right: 24px;
+  position: relative;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-center {
+  justify-content: center;
+}
+.align-center {
+  align-items: center;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.light-text {
+  color: var(--light-text);
+}
+.light-text-70 {
+  color: var(--light-text-70);
+}
+.font-16-21 {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+.font-18 {
+  font-family: var(--main-font);
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: -0.5px;
+}
+.font-16-28 {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 24px;
+}
+.font-36-60 {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 150%;
+}
+.font-16-18 {
+    font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+}
+.text-center {
+  text-align: center;
+}
+.m-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.block {
+  display: block;
+}
+.cloud {
+  background: linear-gradient(
+    rgba(84, 84, 212, 0.27) 0%,
+    rgba(84, 84, 212, 0.1134) 100%
+  );
+  filter: blur(300px);
+  position: absolute;
+}
+.vector {
+  width: 61px;
+  height: 18px;
+  background-image: url("./img/Vector.png");
+  background-size: cover;
+  position: absolute;
+}
+.group {
+  background-image: url(./img/Group.png);
+  width: 51px;
+  height: 60px;
+  position: absolute;
+  background-size: cover;
+}
+.group2 {
+  background-image: url(./img/Group\ 2.png);
+  width: 104px;
+  height: 120px;
+  position: absolute;
+  background-size: cover;
+}
+.add {
+  background-image: url(./img/add.png);
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-size: cover;
+}
+.blue-btn {
+  background-color: #5454D4;
+  color: var(--light-text);
+  width: 166px;
+  height: 44px;
+  font-family: var(--main-font);
+  border: none;
+  gap: 8px;
+}
+@media (min-width: 500px) {
+  .font-18 {
+    font-weight: 400px;
+  }
+  .main-img {
+    height: 575px;
+    width: 463px;
+  }
+  .font-16-21 {
+    font-size: 21px;
+    line-height: 39px;
+    letter-spacing: -0.66px;
+    font-family: var(--main-font);
+  }
+  .font-16-28 {
+    font-size: 28px;
+  }
+  .font-16-18 {
+    font-size: 18px;
+  }
+  .font-36-60 {
+    font-size: 60px;
+  }
+  .vector {
+    width: 95px;
+    height: 28px;
+  }
+  .blue-btn {
+    width: 204px;
+    height: 58px;
+  }
+}

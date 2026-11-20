@@ -1,0 +1,32 @@
+.portofolio-box {
+  width: 327px;
+  height: 246px;
+  background-size: cover;
+}
+.portofolio-box1 {
+  background-image: url("./img/image\ 29.png");
+}
+.portofolio-box2 {
+  background-image: url("./img/image\ 30.png");
+}
+.portofolio-box3 {
+  background-image: url("./img/image\ 28.png");
+}
+.portofolio-group {
+  right: 0;
+  top: 75px;
+}
+@media (min-width: 500px) {
+  .portofolio-box {
+    width: 336px;
+    height: 253px;
+  }
+}
+@media (min-width: 1170px) {
+  .portofolio-box2 {
+    margin-top: 82px;
+  }
+  .portofolio-box3 {
+    margin-top: 140px;
+  }
+}

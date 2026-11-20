@@ -1,0 +1,20 @@
+footer {
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+footer .wrap {
+     justify-content: center;
+     flex-direction: column;
+}
+footer .menu-list {
+    flex-direction: column;
+}
+@media (min-width: 1020px) {
+    footer .wrap {
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    footer .menu-list {
+        flex-direction: row;
+    }
+}
